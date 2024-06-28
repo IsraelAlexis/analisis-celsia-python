@@ -6,9 +6,9 @@ def generarDatos():
         dato={}
         id=random.randint(1,10000)
         referencia=random.choice(['ACH01','ACH22','ACH43'])
-        marca=random.choice(['sony','rico','kalley'])
+        marca=random.choice(['sony','rico','kalley','-'])
         capacidad=random.randint(100,2000)
-        ciudad=random.choice(['itagui','medellin','jardin','pintada',''])
+        ciudad=random.choice(['itagui','medellin','jardin','pintada','envigado','sin','nan'])
         responsable=random.choice(['santiago posada','mauro yepes','camila builes','andres gallego','israel alzate'])
 
         dato=[id,referencia,marca,capacidad,ciudad,responsable]
