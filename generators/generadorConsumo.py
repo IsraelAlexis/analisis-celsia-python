@@ -8,10 +8,11 @@ def generarDatos():
         referencia=random.choice(['ACH01','ACH22','ACH43'])
         marca=random.choice(['sony','rico','kalley','-'])
         capacidad=random.randint(100,2000)
+        consumo=random.randint(100,2000)
         ciudad=random.choice(['itagui','medellin','jardin','pintada','envigado','sin','nan'])
         responsable=random.choice(['santiago posada','mauro yepes','camila builes','andres gallego','israel alzate'])
 
-        dato=[id,referencia,marca,capacidad,ciudad,responsable]
+        dato=[id,referencia,marca,capacidad,consumo,ciudad,responsable]
         datos.append(dato)
     return datos
 print(generarDatos())
